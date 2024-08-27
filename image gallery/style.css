@@ -1,0 +1,96 @@
+body{
+        padding: 0px;
+        margin: 0px;
+        background-image: url("ff.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        margin: 0;
+        background-position: center; 
+        background-attachment: fixed; 
+    }
+.container{
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-image: linear-gradient(to left,rgb(234, 240, 233), rgb(228, 236, 234));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-color: rgb(76, 83, 83);
+}
+.header span{
+    border-bottom: 2px solid white;
+    padding: 5px;
+}
+.heading{
+    width: 1005;
+    height: auto;
+    text-align: center;
+    color: white;
+  padding-top: 20px;
+    font-size: 50px;
+    background-image: linear-gradient(to left, rgb(239, 224, 58), rgb(223, 206, 18));
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.images{
+    
+    justify-content: center;
+    width: 100%;
+    height: auto; 
+}
+.images img{
+    max-width: 280px;
+    padding: 8px;
+    position: relative;
+  transition: transform 0.2s ease-in-out;
+}
+.images img:hover{
+    transform: scale(1.05);
+    
+}
+.images ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    text-decoration: none;
+    list-style: none;
+}
+.images ul li{
+    width: 290px;
+   border: 2px solid white;
+}
+.images ul li:hover{
+    box-shadow: 10px 5px 10px rgb(237, 232, 232);
+}
+.btn{
+   width: 100%;
+   height: auto;
+   text-align: center;
+   justify-content: center;
+   margin-top: 10px;
+}
+button{
+    margin-bottom: 20px;
+    width: 150px;
+    padding: 10px;
+    height: auto;
+    border: 5px solid black;
+    border-radius: 10px;
+    background-color: rgb(235, 199, 145);
+}
+button:hover{
+    background-color: rgb(104, 131, 213);
+    color: white;
+    box-shadow: 10px 5px 10px rgb(45, 37, 37);
+}
